@@ -1,0 +1,43 @@
+// ************ //
+// * Import's * //
+// ************ //
+@import "mixins";
+
+// *******************
+// * Global Stylings *
+// ******************* 
+* {
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+
+    height: 100vh;
+
+    font-family: $montserrat;
+    color: $gray-primary;
+    font-weight: $semibold;
+    font-style: $normal;
+}
+
+a, a:visited, a:link{
+    color: $gray-second;
+    text-decoration: none;
+}
+
+
+// ***************** //
+// * Helper Classes* //
+// ***************** //
+
+// * Content Container * //
+#container{
+    max-width: 1100px;
+    margin: 0 auto;
+
+    padding: 24px;
+}
